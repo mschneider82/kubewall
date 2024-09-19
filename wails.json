@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "kubewall",
+  "outputfilename": "kubewall",
+  "client:install": "npm install",
+  "client:build": "npm run build",
+  "client:dev:watcher": "npm run dev",
+  "client:dev:serverUrl": "auto",
+  "author": {
+    "name": "Matthias Schneider",
+    "email": "x@x"
+  }
+}
